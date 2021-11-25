@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## About
 
-The Travel Journal displaays a list of locations one has visited. It shows an image of the location and other useful information to help other travellers make decisions about their choice locations
+The Travel Journal displays a list of locations one has visited. It shows an image of the location and other useful information to help other travellers make decisions about their choice locations
 ## Available Scripts
 
 In the project directory, you can run:
