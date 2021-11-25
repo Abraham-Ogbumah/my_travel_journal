@@ -1,13 +1,132 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body {
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  background-color: #808080;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main {
+  width: 550px;
+  height: 704px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.header-container {
+  width: 100%;
+  height: 60px;
+  background-color: #F55A5A;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-img-container {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.header-img-container img {
+  max-width: 100%;
+}
+
+.card-img {
+  display: block;
+    max-width: 125px;
+    max-height: 168px;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  height: 168px;
+  width: 471px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.card-details {
+  position: relative;
+}
+
+.card-content {
+  position: absolute;
+  width: 345px;
+  top: 10%;
+}
+
+.card-details > h1 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.dates {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 9px
+}
+
+.description {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.location-info > span {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-align: left;
+  margin-right: 5px;
+}
+
+.location-info > a {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #918E9B;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
